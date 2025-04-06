@@ -5,6 +5,10 @@ import path from "path";
 export default defineConfig({
   base: "/admin/",
   plugins: [vue()],
+  server: {
+    port: 3002,
+    strictPort: true,
+  },
   resolve: {
     alias: {
       "@ui": path.resolve(__dirname, "../../packages/ui"),
