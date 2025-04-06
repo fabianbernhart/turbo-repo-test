@@ -4,10 +4,6 @@ import path from "path";
 
 export default defineConfig({
   base: "/marketing/",
-  server: {
-    port: 3003,
-    strictPort: true,
-  },
   plugins: [vue()],
   resolve: {
     alias: {

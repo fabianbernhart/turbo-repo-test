@@ -4,10 +4,6 @@ import path from "path";
 
 export default defineConfig({
   base: "/dashboard/",
-  server: {
-    port: 3001,
-    strictPort: true,
-  },
   plugins: [vue()],
   resolve: {
     alias: {
