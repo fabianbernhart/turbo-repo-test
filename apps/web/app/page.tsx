@@ -35,7 +35,7 @@ export default function Home() {
           <li>
             Get started by editing <code>apps/web/app/page.tsx</code>
           </li>
-          <li>Save and see your changes instantly. HAAHA</li>
+          <li>Save and see your changes instantly.</li>
         </ol>
 
         <div className={styles.ctas}>
@@ -55,7 +55,7 @@ export default function Home() {
             Deploy now
           </a>
           <a
-            href="https://turbo.build/repo/docs?utm_source"
+            href="https://turbo.build/docs?utm_source"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.secondary}
