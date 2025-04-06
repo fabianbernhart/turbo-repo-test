@@ -1,0 +1,5 @@
+{
+  "name": "@ui",
+  "main": "index.ts",
+  "types": "index.ts"
+}
